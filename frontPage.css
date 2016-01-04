@@ -1,0 +1,55 @@
+html{
+	background:url("images/Magnolia copy.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@media screen and (max-width:1999px){
+	h1{
+		font-size: 80px;
+		font-family: serif;
+		color:#0f2d6b;
+		position: absolute;
+		top:25%;
+		left:40%;
+	}
+
+	.button{
+		position:absolute;
+		top:50%;
+		left:50%;
+		padding:5px;
+		color:#000;
+		font-size:15px;
+		border-radius: 25px;
+		text-decoration:none;
+	}
+
+	#buttTwo{
+		position:absolute;
+		top:57%;
+		left:50%;
+	}
+
+	#sadFace1{
+		position: absolute;
+		left:3%;
+		top:3%;
+		width:400px;
+	}
+
+	#sadFace2{
+		position:absolute;
+		top:50%;
+		left:3%;
+		width:400px;
+	}
+}
+
+@media screen and (min-width:2000px){
+	h1{
+		font-size:500px;
+	}
+}
