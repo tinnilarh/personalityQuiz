@@ -127,24 +127,25 @@ $(document).ready(function()
 	switch(maxNumber)
 	{
 		case tech:
+			document.write("<body> <background image = url(images/fireworks.jpg) size= cover> </body>");
 			document.write("<img src='images/techy.gif'>");
-			document.write("<br> <h1> <font size = 25px color= skyblue>You are techy! <font></body>");
+			document.write("<br> <h1> <font size = 25px color= skyblue>You are a Barnard techie! <font></body>");
 			break;
 		case sga:
 			document.write("<img src='images/SGA.gif'>");
-			document.write("<br> <h1> <font size = 25px color= skyblue>You are a SGA President! <font></body>");
+			document.write("<br> <h1> <font size = 25px color= skyblue>You are a Barnard SGA President! <font></body>");
 			break;
 		case artsy:
 			document.write("<img src='images/artsy.gif'>");
-			document.write("<br> <h1> <font size = 25px color= skyblue>You are artsy! <font></body>");
+			document.write("<br> <h1> <font size = 25px color= skyblue>You are a Barnard artist! <font></body>");
 			break;
 		case doc:
 			document.write("<img src='images/doctor.gif'>");
-			document.write("<br> <h1> <font size = 25px color= skyblue>You are a Doctor! <font></body>");
+			document.write("<br> <h1> <font size = 25px color= skyblue>You are a Barnard doctor! <font></body>");
 			break;
 		case business:
 			document.write("<img src='images/business.gif'>");
-			document.write("<br> <h1> <font size = 25px color= skyblue>You are a Business Lady! <font></body>");
+			document.write("<br> <h1> <font size = 25px color= skyblue>You are a Barnard entrepreneur! <font></body>");
 			break;
 	}
 

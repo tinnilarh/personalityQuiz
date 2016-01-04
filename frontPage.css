@@ -8,14 +8,24 @@ html{
 
 @media screen and (max-width:1999px){
 	h1{
-		font-size: 80px;
-		font-family: serif;
-		color:#0f2d6b;
+		font-size: 60px;
+		font-family: Palatino, serif;
+		color: yellow;
 		position: absolute;
-		top:25%;
+		top:10%;
 		left:40%;
 	}
 
+	p
+	{
+		font-size: 20px;
+		font-family: cursive, sans-serif;
+		font-weight: bold;
+		color: white;
+		position: absolute;
+		top: 0%;
+		left: 32%;
+	}
 	.button{
 		position:absolute;
 		top:50%;

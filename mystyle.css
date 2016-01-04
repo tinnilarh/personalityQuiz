@@ -1,4 +1,4 @@
-@media (min-width:1200px){
+/*@media (min-width:1200px){ */
   body
   {
     color: black;
@@ -64,10 +64,11 @@
     position: relative;
   }
 
-  /*.first{
+  .image_block first{
     margin-left: 3%;
   }
-  .few{
+
+  .image_block first few{
     margin-left:25%;
   }
 
@@ -75,12 +76,13 @@
     height:500px;
   }
 
-  #button, #submit
+  /* #button, #submit
   {
   
     position:fixed;
     bottom:0%;
     left:0%;
+
     width:100%;
     background-color: #66CCFF;
     border: 1px solid #469df5;
@@ -99,8 +101,12 @@
   #button, #submit
 {
   
-  float: right;
-  margin: 20px;
+  /*float: right;
+  margin: 20px; */
+  position: fixed;
+  top: 0px;
+  right: 0px;
+
   background-color: #79bbff;
   border-radius: 23px;
   border: 1px solid #469df5;
@@ -117,14 +123,14 @@
   text-align:center;
 
   }
-}
+/* } */
 
 /*@media (min-width:1400px){
-  .first{
+  .image_block first{
     margin-left:8%;
   }
 
-  .few{
+  .image_block first few{
     margin-left:26%;
   }
 }*/
