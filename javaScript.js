@@ -127,7 +127,6 @@ $(document).ready(function()
 	switch(maxNumber)
 	{
 		case tech:
-			document.write("<body> <background image = url(images/fireworks.jpg) size= cover> </body>");
 			document.write("<img src='images/techy.gif'>");
 			document.write("<br> <h1> <font size = 25px color= skyblue>You are a Barnard techie! <font></body>");
 			break;
