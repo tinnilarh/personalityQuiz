@@ -1,3 +1,4 @@
+
   body
   {
     color: black;
@@ -54,7 +55,8 @@
     width: 190px;
     background-color: lightgray;
     display:inline-block;
-    float: left;
+    /*float: left; */
+    position: relative;
     margin: 15px;
   }
 
@@ -85,6 +87,7 @@
   text-align:center;
 
 }
+
 
 
 
